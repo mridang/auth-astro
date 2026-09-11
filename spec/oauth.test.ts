@@ -68,7 +68,7 @@ test.beforeAll(
     const issuerUrl = `http://${container.getHost()}:${container.getMappedPort(8080)}/default`;
     const playgroundDir = path.resolve(import.meta.dirname, '../playground');
 
-    devServer = spawn('npm', ['run', 'dev'], {
+    devServer = spawn('npm', ['run', 'dev', '--', '--ignore-lock'], {
       cwd: playgroundDir,
       env: {
         ...process.env,

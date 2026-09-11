@@ -23,7 +23,7 @@ export default defineConfig({
     },
   ],
   webServer: {
-    command: 'npm run dev',
+    command: 'npm run dev -- --ignore-lock',
     cwd: './playground',
     url: 'http://localhost:3850',
     reuseExistingServer: !process.env.CI,

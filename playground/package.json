@@ -18,11 +18,11 @@
     "start": "astro dev"
   },
   "dependencies": {
-    "@astrojs/node": "^10.0.5",
+    "@astrojs/node": "^11.1.5",
     "@auth/core": "^0.41.0",
     "@tailwindcss/vite": "^4.1.11",
     "@zitadel/astro-auth": "file:../",
-    "astro": "^6.1.8",
+    "astro": "^7.3.2",
     "cookie": "^1.1.1",
     "tailwindcss": "^4.0.0"
   },
